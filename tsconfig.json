@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true
+    },
+    "include": ["src/**/*", "src/webpack.config.js"],
+    "exclude": ["./node_modules", "./build"],
+    "typeRoots": ["./node_modules", "./src/types"]
+}

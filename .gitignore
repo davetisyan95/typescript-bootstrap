@@ -1,0 +1,4 @@
+# Add directories/files you wish to ignore
+# Docs - https://git-scm.com/docs/gitignore
+node_modules
+dist
